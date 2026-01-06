@@ -1,0 +1,38 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Cannot connect to Volkszaehler",
+            "unknown": "Unknown error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "port": "Port"
+                },
+                "data_description": {
+                    "host": "Hostname, IP address or URL of your Volkszaehler server",
+                    "port": "Port number (default: 80)"
+                },
+                "description": "Configure the Volkszaehler server connection. You can add channels (UUIDs) later in the options.",
+                "title": "Volkszaehler server"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "channel_name": "Channel name",
+                    "channel_uuid": "Channel UUID"
+                },
+                "data_description": {
+                    "channel_name": "Name for this channel (e.g., Kitchen, Living Room)",
+                    "channel_uuid": "UUID of the channel from Volkszaehler"
+                },
+                "description": "{current}",
+                "title": "Add Volkszaehler channel"
+            }
+        }
+    }
+}
