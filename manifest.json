@@ -2,7 +2,7 @@
   "domain": "volkszaehler_energy",
   "name": "Volkszaehler Energy",
   "codeowners": [],
-  "documentation": "https://TODO",
+  "documentation": "https://github.com/ampelbein/homeassistant-volkszaehler-energy/blob/main/README.md",
   "iot_class": "local_polling",
   "config_flow": true,
   "quality_scale": "legacy",
